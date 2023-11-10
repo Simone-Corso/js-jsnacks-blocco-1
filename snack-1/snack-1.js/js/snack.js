@@ -3,3 +3,5 @@
 
 const FirstYears = prompt('Quanti anni hai?')
 const SecondYears = prompt('Quanti anni hai?')
+
+document.getElementById('output').innerHTML = 'Quanti anni hai?'
