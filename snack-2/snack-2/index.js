@@ -12,6 +12,11 @@ for( let i = 1; i <=6; i++){
 
     const cardElement = document.createDocumentFragment('div');
     cardElement.className = 'card';
+
+    // qua crearerò un elemento sovranominato dell'h2 in i
+
+    const headingCardElement = document.createElement('h2');
+    headingCardElement.innerHTML = i;
 }
 
 
