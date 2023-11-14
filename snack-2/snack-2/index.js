@@ -17,6 +17,11 @@ for( let i = 1; i <=6; i++){
 
     const headingCardElement = document.createElement('h2');
     headingCardElement.innerHTML = i;
+
+    //vado a selezionare gli elementi con append
+
+    cardElement.appendChild(HeadingCardElement);
+    wrapperElement.appendChild(CardElement);
 }
 
 
