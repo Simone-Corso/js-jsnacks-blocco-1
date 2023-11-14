@@ -6,7 +6,13 @@
 
 const wrapperElement = document.querySelector('div.my_wrapper');
 
+//All'interno inseriamo le due variabili per ottenere i nuemri.
+
 for( let i = 1; i <=6; i++){
-    
+
+    const cardElement = document.createDocumentFragment('div');
+    cardElement.className = 'card';
 }
+
+
 
