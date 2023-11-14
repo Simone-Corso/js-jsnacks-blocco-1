@@ -13,15 +13,15 @@ for( let i = 1; i <=6; i++){
     const cardElement = document.createDocumentFragment('div');
     cardElement.className = 'card';
 
-    // qua crearerò un elemento sovranominato dell'h2 in i
+    // qua creo un elemento sovranominato dell'h2 in i
 
     const headingCardElement = document.createElement('h2');
     headingCardElement.innerHTML = i;
 
     //vado a selezionare gli elementi con append
 
-    cardElement.appendChild(HeadingCardElement);
-    wrapperElement.appendChild(CardElement);
+    cardElement.appendChild(headingCardElement);
+    wrapperElement.appendChild(cardElement);
 }
 
 
