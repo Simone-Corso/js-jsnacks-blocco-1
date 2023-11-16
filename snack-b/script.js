@@ -12,4 +12,10 @@ console.log(chiediCifra[4]);
 console.log(chiediCifra[5]);
 console.log(chiediCifra[6]);
 
+let somma;
+for (let i=0; i<chiediCifra; i++) {
+   somma = somma + (chiediCifra[0] + chiediCifra[1] + chiediCifra [2] + chiediCifra[3] + chiediCifra[4] + chiediCifra[5] + chiediCifra[6] + chiediCifra[7])
+   console.log(chiediCifra[0] + chiediCifra[1] + chiediCifra [2] + chiediCifra[3] + chiediCifra[4] + chiediCifra[5] + chiediCifra[6] + chiediCifra[7]);
+}
+
 //Mettere il risultato della somma ottenuta da 7 cifre.
