@@ -4,3 +4,11 @@
 const parolaElement = prompt ('inserisci la prima parola');
 const parolaSecond = prompt('inserisci la seconda parola');
 
+const parolaLunga = parolaElement.length > parolaSecond.length;
+
+if ( parolaElement.length > parolaSecond.length);
+console.log(parolaSecond,parolaElement);
+
+    else{
+        console.log(parolaElement, parolaSecond);
+    }
