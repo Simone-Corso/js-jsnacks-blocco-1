@@ -7,3 +7,4 @@
 
 // 1 - si crea un array vuota ( let vuota = [])
 
+let vuota = []
