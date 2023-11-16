@@ -14,7 +14,7 @@ console.log(chiediCifra[6]);
 
 let somma;
 for (let i=0; i>chiediCifra; i++) {
-   somma = somma + (chiediCifra[0] + chiediCifra[1] + chiediCifra [2] + chiediCifra[3] + chiediCifra[4] + chiediCifra[5] + chiediCifra[6] + chiediCifra[7])
+   somma = somma + chiediCifra[i];
    console.log(i);
 }
 
