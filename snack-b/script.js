@@ -4,6 +4,7 @@
 
 const chiediCifra = prompt('inserisci una cifra di 7 numeri');
 
+
 console.log(chiediCifra[0]);
 console.log(chiediCifra[1]);
 console.log(chiediCifra[2]);
@@ -13,8 +14,10 @@ console.log(chiediCifra[5]);
 console.log(chiediCifra[6]);
 
 let somma;
-for (let i=0; i>chiediCifra; i++) {
-   somma = somma + chiediCifra[i];
+for (let i=0; i<chiediCifra.length; i++){
+
+const convertitoInNumeo = parseInt(chiediCifra[i]);
+   somma = somma + convertitoInNumeo;
    console.log(i);
 }
 
