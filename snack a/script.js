@@ -8,7 +8,7 @@
 // 1 - si crea un array vuota ( let vuota = [])
 
 let vuota = []
-console.log(vuoto)
+console.log(vuota)
 
 // 2 - chiediamo 6 volte all'utente un numero
 
