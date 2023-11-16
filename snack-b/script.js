@@ -8,7 +8,9 @@ const secondaCifra = prompt('Scrivimi la seconda cifra');
 const terzaCifra = prompt('Scrivimi la terza cifra');
 const quartaCifra = prompt('Scrivimi la quarta cifra');
 const quintaCifra = prompt('Scrivimi la quinta cifra');
-const sestaCifra = prompt('Scrivimi il sesto cifra');
+const sestaCifra = prompt('Scrivimi la sesta cifra');
 const settimaCifra = prompt('Scrivimi la settima cifra');
+
+console.log(primaCifra + secondaCifra + terzaCifra + quartaCifra + quintaCifra + sestaCifra + settimaCifra );
 //calcolare la somma di tutte le cifre che ha messo l'utente
 //Mettere il risultato della somma ottenuta da 7 cifre.
