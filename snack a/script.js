@@ -7,8 +7,13 @@
 
 // 1 - si crea un array vuota ( let vuota = [])
 
-let vuota = []
-console.log(vuota[3]);
+let vuota = [7]
+console.log(vuota);
+
+
+//3 - se compare dispari, devo metterlo nell array. (in questo caso ha mostrato 7 in tutti numeri che inserivo)
+
+vuota.length = 3;
 
 // 2 - chiediamo 6 volte all'utente un numero
 
